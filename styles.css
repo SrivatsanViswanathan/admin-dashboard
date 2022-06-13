@@ -8,6 +8,7 @@ body {
     display: grid;
     grid-template-columns: 1fr 4fr;
     grid-template-rows: 1fr 5fr 0.3fr;
+    font-family: 'Roboto', sans-serif;
 }
 
 /* Header */
@@ -78,6 +79,10 @@ body {
     background-color: #0ea5e9;
     border: none;
     cursor: pointer;
+}
+
+.header button:active {
+    transform: scale(0.90);
 }
 
 .large {
@@ -170,14 +175,18 @@ body {
 .projects .card .bottom {
     display: grid;
     grid-template-columns: 0.1fr 0.1fr 0.1fr;
-    padding-top: 3.25rem;
-    padding-bottom: 3.25rem;
+    padding-top: 2.65rem;
+    padding-bottom: 2.65rem;
     justify-content: flex-end;
 }
 
 .projects .card .middle {
     padding-left: 1rem;
     color: gray;
+}
+
+.projects img {
+    cursor: pointer;
 }
 
 .anouncements {
